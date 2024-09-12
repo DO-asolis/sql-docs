@@ -140,7 +140,7 @@ These components aren't uninstalled because they can be shared with other produc
 - The Azure Data Studio system installer requires the same security rights as the SSMS installer.
 - The Azure Data Studio installation is completed with the default Azure Data Studio installation options. These are to create a Start Menu folder and add Azure Data Studio to PATH. A desktop shortcut isn't created, and Azure Data Studio isn't registered as a default editor for any file type.
 - Localization of Azure Data Studio is accomplished through Language Pack extensions. Install the corresponding language pack from the [extension marketplace](/azure-data-studio/extensions/add-extensions) to localize Azure Data Studio.
-- For versions 18.7 through 19.3, the installation of Azure Data Studio can be skipped by launching the SSMS installer with the command line flag `DoNotInstallAzureDataStudio=1`.
+- For versions 18.7 through 19.3, the installation of Azure Data Studio can be skipped, by launching the SSMS installer with the command line flag `DoNotInstallAzureDataStudio=1`.
 
 ## Supported SQL offerings
 
